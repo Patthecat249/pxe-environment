@@ -1,0 +1,38 @@
+# /etc/hosts
+127.0.0.1	localhost
+::1		localhost ip6-localhost ip6-loopback
+ff02::1		ip6-allnodes
+ff02::2		ip6-allrouters
+
+127.0.1.1	pi
+10.0.249.150	nas
+10.0.249.53	dns
+10.0.249.53	pi
+10.0.249.1	router fritzbox fb
+10.0.249.200	esx01
+10.0.249.199	esx01imm
+10.0.249.11	esx02
+10.0.249.205	vcenter
+10.0.249.222	terraform
+10.0.249.108	ubuntu
+10.0.249.245	sps.home.local
+10.0.249.60	pxe-server webserver
+
+# OCP43-Load Balancer
+#10.0.249.236	*.apps.ocp43-patrick.home.local
+#10.0.249.236	api-int.ocp43-patrick.home.local
+#10.0.249.236	api.ocp43-patrick.home.local
+
+#10.0.249.230    ocpbastion bastion ocpbastion.ocp43-patrick.home.local
+#10.0.249.238    ocpbootstrap ocpbootstrap.ocp43-patrick.home.local
+#10.0.249.236    ocplb1 ocplb1.home.local
+#10.0.249.237    ocplb2 ocplb2.home.local
+#10.0.249.231    ocpmaster1 ocpmaster1.ocp43-patrick.home.local
+#10.0.249.232    ocpmaster2 ocpmaster2.ocp43-patrick.home.local
+#10.0.249.233    ocpmaster3 ocpmaster3.ocp43-patrick.home.local
+#10.0.249.234    ocpworker1 ocpworker1.ocp43-patrick.home.local
+#10.0.249.235    ocpworker2 ocpworker2.ocp43-patrick.home.local
+
+#10.0.249.231    etcd-0.ocp43-patrick.home.local
+#10.0.249.232    etcd-1.ocp43-patrick.home.local
+#10.0.249.233    etcd-2.ocp43-patrick.home.local
